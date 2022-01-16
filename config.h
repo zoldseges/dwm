@@ -20,7 +20,6 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"timedatectl", "set-ntp", "true", NULL,
-	"dsetrootname", NULL,
 	"setxkbmap", "-option", "ctrl:nocaps", NULL,
 	NULL /* terminate */
 };
