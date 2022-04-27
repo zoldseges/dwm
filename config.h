@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 
 static const char *const autostart[] = {
 	"setxkbmap", "-option", "ctrl:swapcaps", NULL,
-	"xrandr", "--output" , "VGA-1", "--auto", "--left-of", "LVDS-1", NULL,
+	"xrandr", "--output" , "VGA-1", "--auto", "--right-of", "LVDS-1", NULL,
 	NULL /* terminate */
 };
 
